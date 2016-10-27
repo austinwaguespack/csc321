@@ -1,3 +1,22 @@
 #Before the Process
+Active Internet connections (including servers)
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp4       0      0  192.168.178.37.58995   216.58.218.142.443     ESTABLISHED
+tcp4       0      0  192.168.178.37.57869   17.249.220.30.5223     ESTABLISHED
+tcp4       0      0  *.22                   *.*                    LISTEN     
+tcp6       0      0  *.22                   *.*                    LISTEN     
+
 #During the Process
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp4       0      0  *.5560                 *.*                    LISTEN (This socket is associated with this problem)    
+tcp4       0      0  *.5559                 *.*                    LISTEN (This socket is associated with this problem)    
+tcp4       0      0  192.168.178.37.57869   17.249.220.30.5223     ESTABLISHED
+tcp4       0      0  *.22                   *.*                    LISTEN     
+tcp6       0      0  *.22                   *.*                    LISTEN     
+
 #After the Process
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp4       0      0  192.168.178.37.57869   17.249.220.30.5223     ESTABLISHED
+tcp4       0      0  *.22                   *.*                    LISTEN     
+tcp6       0      0  *.22                   *.*                    LISTEN     
+
